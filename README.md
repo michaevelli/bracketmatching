@@ -22,6 +22,13 @@ Enter line:
 <b>(how (much )wood [can )a ]wood )chuck</b>
                       ^ bracket does not match here
 </pre>
+$ <b>gcc bracketmatching.c stack.c -o bracketmatching</b>
+$ <b>./bracketmatching</b>
+Enter line:
+<b>([]))[]])</b>
+missing brackets at the beginning of string. need: ( [
+<pre>
+</pre>
 <pre>
 $ <b>gcc bracketmatching.c stack.c -o bracketmatching</b>
 $ <b>./bracketmatching</b>
